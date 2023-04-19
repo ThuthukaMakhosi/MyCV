@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Name of the html page -->
+    <title>Biography</title>
+
+    <!-- Internal CSS -->
+    <style>
+
+        /*color for the links in the page */
+        a{
+            color: rgb(0, 204, 255);
+        }
+
+        /*style for the level 2 headings*/
+        h2{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: xx-large;    
+        }
+
+        /*style for the level 3 headings*/
+        h3{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: x-large;   
+        }
+
+        /*style for the body*/
+        body{
+            background-color: rgba(37, 37, 37, 0.973);
+            color: rgb(252, 250, 250);
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url("background3.jpg") ;
+            background-size: cover;
+        }
+
+        /*style for the level 1 heading*/
+        #head{
+            background-image: url("background.jpg") ;
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background-color: rgb(8, 8, 8);
+            font-size: 200%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #6e7575; 
+        }
+
+        /*settings for the picture*/
+        .mypic{
+            float: right;
+            padding-right: 10px;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+
+        /*style for the lists*/
+        ul{
+            list-style-type: circle; 
+            font-size: x-large;
+        }
+
+        /*style for the list elements*/
+        ul li{
+            margin-bottom: 10px;
+        }
+
+        /*style for paragraphs*/
+        .bio{
+            font-size: x-large;
+        }
+
+        /*link changes color when user hovers it*/
+        a:hover{
+            color: blueviolet;
+        }
+
+        .modules{
+            list-style-type: square; 
+            
+        }
+
+        .edges{
+            margin: 15px;
+        }
+    </style>
+
+    
+</head>
+
+<!-- Body consisting information about me -->
+<!-- div elements, class selectors  and identifiers are used to allow CSS to manipulate/style the contents of the html page -->
+<body>
+<div class="edges">
+    <div id="head"><h1>BIOGRAPHY</h1></div>
+    
+    <!-- Paragraphs with biography information -->
+    <div class="bio">
+        <h2>ABOUT ME</h2>
+
+            <img src="mypic.png" class="mypic" alt="Thuthuka Ndebele"> <p>
+            My name is Thuthuka Ndebele, I was born on 23 November 1999 and I am originally from Zimbabwe but residing 
+            in South Africa. I am currently studying Software engineering at HyperionDev, I have always been interested in knowing how to create my
+            own applications hence i decided to study Software engineering. Before I began my journey in Software Engineering, I was studying Mechanical Engineering at Wits University until 2022. I learnt a lot from 
+            studying Mechanical Engineering, it is a broad course as it covers a lot of content including programming, so I use some of that knowledge in my Software Engineering journey. 
+            </p>
+
+            <p>
+            One thing I have always been passionate about most of my  life is automation software, it makes life and work more managable. By studying Software engineering
+            I am hoping that I can make improvements in our automated technologies and make them more efficient and more accessible to society. 
+            </p>
+
+            <p>
+            What motivates me the most is the thought of being successful and being able to help other people to achieve their goals in life. Success to me is being happy and being able to lift others up to their true potential.
+            </p>
+            <br>
+            </div>
+
+    <!-- An unordered list with contact details -->
+    <h2>CONTACT DETAILS</h2>
+        <ul>
+            <li>Name     : Thuthuka Ndebele</li>
+            <li>Contact Number      : +27 82 887 9132</li>
+            <li>Email address       : thuthukamakhosi23@gmail.com</li>
+
+            <!-- List element with a link that opens in a new tab -->
+            <li>Social link :     <a target = "_blank" href = "https://www.linkedin.com/in/thuthuka-ndebele-b12344155/">Linkedin</a></li>
+            <!-- Link to display image on html page -->
+            <br>
+        </ul>
+
+
+    <!-- An unordered list of skills and competencies -->
+    <h2>SKILLS AND COMPETENCY</h2>
+        <h3>Skills</h3>
+            <ul>
+                <li>CAD (Autodesk Inventor)</li>
+                <li>Python, SQL, Django, HTML, CSS</li>
+                <li>ANSYS</li>
+                <li>Microsoft Office</li>
+                <li>Adode Photoshop and Premier</li>
+                <li>Cinematographer</li>   
+            </ul>
+
+    <h3>Competencies</h3>
+        <ul>
+            <li>Production Management</li>
+            <li>Collaboration</li>
+            <li>Time Management</li>
+            <li>Intergrity</li>   
+            <li>Artistic</li> 
+            <br>
+        </ul>
+
+    <!-- An unordered list describing education -->
+    <h2>EDUCATION</h2>
+        <ul>
+            <li>Grade 12: Completed in 2017</li>
+            <li>Mechanical Engineering: Wits University 2018 - 2022</li>
+            <ul class="modules">
+               <li>FIRST YEAR: Mathematics I(A), Physics I(B), Engineering Drawing(B),
+                Chemistry I(C), Mechanics(C), Introduction to Mechanical Engineering
+                and Design(C)</li> 
+
+                <li>SECOND YEAR: Electrical Engineering, Mathematics II, Fluid Mechanics
+                    I, Mechanical Engineering Laboratory I, Thermodynamics I, Introduction
+                    to Materials Science and Engineering, Applied Mechanics A, Computing
+                    Skills and Software Development, Applied Mechanics B, Mechanical
+                    Engineering Design</li>
+
+                <li>THIRD YEAR: Fundamental in Engineering Heat Transfer, Mechanical
+                    Vibrations, Numerical Methods and Statistics, Business Management,
+                    Mechatronics I, Mechanical Engineering Laboratory</li>
+            </ul>
+            <li>Software Engineering course: HyperionDev 2023 Feb - 2023 May </li>
+            <br>
+        </ul>
+
+    <!-- An unordered list describing working experience-->
+    <h2>WORK EXPERIENCE</h2>
+        <ul>
+            <li>Seriti Coal Vac Work: 2019 Dec - 2020 Jan</li>
+            <br>
+        </ul>
+
+    <!-- An unordered list describing projects -->
+    <h2>PROJECTS</h2>
+        <ul>
+            <!-- List element with a link that opens in a new tab -->
+            <li>Financial calculators: <a target = "_blank" href = "https://github.com/ThuthukaMakhosi/HyperionDev.git">HyperionDev Projects</a> </li>
+            <li>Online store web page: <a target = "_blank" href = "https://thuthukamakhosi.github.io/onlinestore/">Web page</a> </li>
+
+            <br>
+        </ul>
+     
+    <!-- An unordered list with blogs and articles -->
+    <h2>BLOGS OR ARTICLES</h2>
+        <ul>
+        NOT AVAILABLE!
+        </ul>
+</div>        
+</body>
+</html>
